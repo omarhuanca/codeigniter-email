@@ -43,10 +43,10 @@ class Welcome extends CI_Controller {
 
 		$result = $this->email
 							->from('oma378501@gmail.com')
-							->to('oma378501@gmail.com')
+							->to('omar.huanca.balboa@gmail.com')
 							->subject($subject)
 							->message($body)
-		                    ->send();
+							->send();
 
 		$this->load->view('index');
 	}
