@@ -42,7 +42,7 @@ class Welcome extends CI_Controller {
 		</html>';
 
 		$result = $this->email
-							->from('oma378501@gmail.com')
+							->from('websolutionssrl@gmail.com')
 							->to('omar.huanca.balboa@gmail.com')
 							->subject($subject)
 							->message($body)
