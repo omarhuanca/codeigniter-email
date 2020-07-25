@@ -56,3 +56,4 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['welcome/index'] = 'welcome/index';
 $route['welcome/sendEmail'] = 'welcome/sendEmail';
+$route['welcome/send'] = 'welcome/send';
